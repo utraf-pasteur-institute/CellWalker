@@ -42,15 +42,22 @@ Using 'Merge List' and saving segments as 3D objects-
 Skeletonization-
 Using translation coordinates
 Using erosion
-Viewing skeletons- zoom, pan
+Kimimaro parameters
+Opening skeletons from SWC files
+Viewing skeletons- downsampling, coloring by node radius / component, zoom, pan
 Analysis of skeletons-
    Selecting nodes on skeleton
    Length measurement between two nodes
    Cross-sectioning of original images using skeleton- Using EM data and masks
    Curvature analysis
+Saving skeletons as SWC and OBJ files
+   Setting radius for edges and nodes
+   
 
 
 Find protrusions
+   Deciding erosion and dilation iterations
+   Output obj files - soma, protrusions
 
 Segment propertise: Morphometric analysis of segments
 
