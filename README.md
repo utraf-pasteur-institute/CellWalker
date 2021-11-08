@@ -37,8 +37,25 @@ The displayed colors of a segment can be changed by clicking on the colored butt
 Scrolling throught the image sequence is facilitated by the slider at the bottom of the segmentation frame. Scrolling is also possible using keyboard left and right arrows after clicking once on any segmentation image.
 
 
+Using 'Merge List' and saving segments as 3D objects-
 
 Skeletonization-
+Using translation coordinates
+Using erosion
+Viewing skeletons- zoom, pan
+Analysis of skeletons-
+   Selecting nodes on skeleton
+   Length measurement between two nodes
+   Cross-sectioning of original images using skeleton- Using EM data and masks
+   Curvature analysis
+
+
+Find protrusions
+
+Segment propertise: Morphometric analysis of segments
+
+Calculate planes separating selected objects
+
 
 
 
