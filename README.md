@@ -14,11 +14,14 @@ The required packages can be found in the requirements.txt file.
 # Under progress-
 **User guide
 
-Create python environment
+Clone the github repository to your local system
 
-Run the python script
+Create python environment. This step is tested using Anaconda Python distribution (link). But it should be possible to use other python distributions as well.
 
+Activate the newly created environment
 conda activate cellwalker
+
+Browse to the 'src' folder of the cloned repository and run the python script as follows
 python cellwalker.py
 
 Loading segmented images (or segmentation masks)
