@@ -5,14 +5,11 @@ Morphological analysis tool for segmented 3D microscopy images of biological cel
 
 This program does not require specific installation procedure. The script is tested on Python 3.7 on Ubuntu 18.04.
 
-
-
-
-The required packages can be found in the requirements.txt file.
+If you prefer to create the python environment yourself, then please refer to the required packages the requirements.txt file. Otherwise, just follow the procedure given in the user guide below.
 
 
 ## User guide<br>
-**Under progress**
+Under progress
 
 Clone the github repository to your local system and browse to the downloaded folder from a command line (for linux) or using Anaconda Prompt (for windows)
 
