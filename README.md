@@ -33,11 +33,10 @@ python cellwalker.py
 CellWalker window
 </p>
 
-
-Loading segmented images (or segmentation masks)
-Click on the 'Load segmentation' button.
-A dialog box will open and allow selection of a folder.
-Browse to the folder that contains the segmentation stored as images in PNG format.
+**Loading segmented images (or segmentation masks)**
+1. Click on the 'Load segmentation' button.
+2. A dialog box will open and allow selection of a folder.
+3. Browse to the folder that contains the segmentation stored as images in PNG format.
 At the moment, CellWalker can only read PNG image sequences. If you have a tiff image stack then you can use a software like ImageJ to generate an image sequence.
 Also please note that the current version of CellWalker is designed to work with 8-bit grayscale segmentation images. If 24-bit RGB images are provided, then only the first channel will be used to detect segment labels.
 
