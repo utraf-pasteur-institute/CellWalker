@@ -25,7 +25,7 @@ Browse to the 'src' folder of the cloned repository and run the python script as
 python cellwalker.py
 
 <p style="font-style: italics;" align="center">
-<img height=128 src="cellwalker_blank.png" alt="CellWalker window" /><br>
+<img height=300 src="cellwalker_blank.png" alt="CellWalker window" /><br>
 CellWalker window
 </p>
 
