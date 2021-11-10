@@ -14,17 +14,22 @@ The required packages can be found in the requirements.txt file.
 # Under progress-
 **User guide
 
-Clone the github repository to your local system
+Clone the github repository to your local system and browse to the downloaded folder from a command line (for linux) or using Anaconda Prompt (for windows)
 
-Create python environment. This step is tested using Anaconda Python distribution (link). But it should be possible to use other python distributions as well.
+Create python environment using the provided .yml file. This step is tested using Anaconda Python distribution (link). But it should be possible to use other python distributions as well.
+```
+conda env create -f cellwalker.yml
+```
 
 Activate the newly created environment
-```bash
+```
 conda activate cellwalker
 ```
 
-Browse to the 'src' folder of the cloned repository and run the python script as follows<br>
+Browse to the 'src' folder of the cloned repository and run the python script as follows
+```
 python cellwalker.py
+```
 
 <p style="font-style: italics;" align="center">
 <img height=300 src="cellwalker_blank.png" alt="CellWalker window" /><br>
