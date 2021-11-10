@@ -19,7 +19,7 @@ Clone the github repository to your local system
 Create python environment. This step is tested using Anaconda Python distribution (link). But it should be possible to use other python distributions as well.
 
 Activate the newly created environment
-```
+```bat
 conda activate cellwalker
 ```
 
