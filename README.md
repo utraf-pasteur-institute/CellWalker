@@ -27,11 +27,14 @@ Browse to the 'src' folder of the cloned repository and run the python script as
 ```
 python cellwalker.py
 ```
-
+The above command will launch the CellWalker window as shown below.
 <p style="font-style: italics;" align="center">
 <img height=300 src="cellwalker_blank.png" alt="CellWalker window" /><br>
 CellWalker window
 </p>
+
+All functionalities of CellWalker are accessible through this single window. The left hand side panel of the window displays the loaded image stack, while all the analytical functions are accessible from the tabbed panel on the right hand side. Each tab in this panel is named accordingly. For examplem, the tab named skeletonization contains all the functions related to skeletonization of 3D objects, such as- building, saving and opening skeletons, measurements on the skeletons etc.
+
 
 **Loading segmented images (or segmentation masks)**
 1. Click on the 'Load segmentation' button.
