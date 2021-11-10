@@ -11,8 +11,8 @@ This program does not require specific installation procedure. The script is tes
 The required packages can be found in the requirements.txt file.
 
 
-# Under progress-
-**User guide
+## User guide<br>
+**Under progress**
 
 Clone the github repository to your local system and browse to the downloaded folder from a command line (for linux) or using Anaconda Prompt (for windows)
 
