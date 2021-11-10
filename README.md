@@ -24,6 +24,12 @@ conda activate cellwalker
 Browse to the 'src' folder of the cloned repository and run the python script as follows
 python cellwalker.py
 
+<p style="font-style: italics;" align="center">
+<img height=512 width=512 src="cellwalker_blank.png" alt="CellWalker window" /><br>
+CellWalker window
+</p>
+
+
 Loading segmented images (or segmentation masks)
 Click on the 'Load segmentation' button.
 A dialog box will open and allow selection of a folder.
