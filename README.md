@@ -21,7 +21,7 @@ Create python environment. This step is tested using Anaconda Python distributio
 Activate the newly created environment
 conda activate cellwalker
 
-Browse to the 'src' folder of the cloned repository and run the python script as follows
+Browse to the 'src' folder of the cloned repository and run the python script as follows<br>
 python cellwalker.py
 
 <p style="font-style: italics;" align="center">
