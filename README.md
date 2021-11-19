@@ -116,8 +116,9 @@ Coming up...<br>
 **Segment propertise**<br>
 Morphometric analysis of segments
 
-**Calculate planes separating selected objects**
+**Calculate planes separating selected objects**<br><br>
 
+<hr>
 
 ## Common errors and post-installation adjustments
 
