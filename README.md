@@ -3,19 +3,17 @@ Morphological analysis tool for segmented 3D microscopy images of biological cel
 
 ### Installation
 
-This program does not require specific installation procedure. The script is tested on Python 3.7 on Ubuntu 18.04.
-
-If you prefer to create the python environment yourself, then please refer to the required packages the requirements.txt file. Otherwise, just follow the procedure given in the user guide below.
-
+This program does not require specific installation procedure. The script is tested on Python 3.6 on Ubuntu 18.04.
 
 ## User guide<br>
 Under progress
 
+**Setting up python environment**
 Clone the github repository to your local system and browse to the downloaded folder from a command line (for linux) or using Anaconda Prompt (for windows)
 
-Create python environment using the provided .yml file. This step is tested using Anaconda Python distribution (link). But it should be possible to use other python distributions as well.
+Create an environment with Python 3.6. This step is tested using <a href="https://www.anaconda.com/">Anaconda Python distribution</a>. But it should be possible to use other python distributions as well.
 ```
-conda env create -f cellwalker.yml
+conda create --name cellwalker python=3.6
 ```
 
 Activate the newly created environment
@@ -23,7 +21,12 @@ Activate the newly created environment
 conda activate cellwalker
 ```
 
-Browse to the 'src' folder of the cloned repository and run the python script as follows
+Install dependencies using requirements.txt file.
+```
+pip install -r requirements.txt
+```
+
+Browse to the 'src' folder of the cloned repository and run the python script as follows.
 ```
 python cellwalker.py
 ```
