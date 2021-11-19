@@ -115,5 +115,6 @@ Go to http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/ and find the required 
 In this case, it is libtk8.6_8.6.8-4_amd64.deb<br>
 Download libtk8.6_8.6.8-4_amd64.deb<br>
 Open the downloaded deb file with archive manager (or any other extracter).<br>
-Find the required libtk8.6.so file and replace Anaconda's libtk8.6.so with this new file.<br>
+Find the required libtk8.6.so file. It is usually located in data/usr/lib/x86_64-linux-gnu folder.<br>
+Replace Anaconda's libtk8.6.so with this new file.<br>
 
