@@ -94,7 +94,7 @@ CellWalker window
 1. Once the skeleton is visualized, you can perform the following analyses by selecting the nodes on the skeleton and then choosing an action from the 'Skeleton-based analysis' section. These action buttons present an icon and show a tooltip by hovering the mouse cursor to describe the action they perform.
 2. The nodes on the skeleton can be chosen by pressing the mouse middle button. The selected node ids are printed in the terminal window.
 3. 'Calculate length': Select two nodes and then click on the button with a ruler icon. The button shows 'Calculate length' as tooptip. The length calculations will be printed to the terminal window. The straight length as well as the path length are calculated between the two selected nodes. For the path length, the full path is also printed as a table showing details of the shortest path between the selected nodes.<br>
-4. 
+4. 'Create cross-sections': This function is meant for creating the cross-sections of the original image volume (not the segmented image volume) and generate histogram of intensities along in a chosen direction. The original images should be placed in a folder named 'EM' alongside the folder from which the segmented images were loaded. To perform cross-section analysis, select two nodes on the skeleton to denote the direction in which you want CellWalker to cut the 3D image volume. CellWalker will use coordinates of these two nodes to create a 'centerline'. The cross-sectioning will be performed perpendicular to this line. The
 
 Using translation coordinates
 
