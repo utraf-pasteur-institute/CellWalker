@@ -92,12 +92,12 @@ Calculate planes separating selected objects
 
 ## Common errors and post-installation adjustments
 
-**For error 'No module named google' do the following**<br>
+**For error 'No module named google'**<br>
 ```
 pip install google-cloud-storage
 ```
 
-**For better looking fonts follow these instructions**
+**For better looking fonts**<br>
 Taken from- https://stackoverflow.com/questions/47769187/make-anacondas-tkinter-aware-of-system-fonts-or-install-new-fonts-for-anaconda?noredirect=1&lq=1<br>
 1. Take backup of /home/<username>/anaconda3/lib/libtk8.6.so
 2. Create symbolic link to systems libtk8.6.so which is built on FreeType fonts.
