@@ -111,7 +111,9 @@ For example, it might ask for 8.6.8 version exactly. This version of libtk might
 In such a case, download the libtk8.6.so for that version and replace Anaconda's libtk8.6.so with this new file.<br>
 
 Alternatively, libtk8.6.8.so can also be extracted from the libtk deb package.<br>
-Dowonload http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/libtk8.6_8.6.8-4_amd64.deb<br>
+Go to http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/ and find the required version of libtk installation package.<br>
+In this case, it is libtk8.6_8.6.8-4_amd64.deb<br>
+Download libtk8.6_8.6.8-4_amd64.deb<br>
 Open with archive manager (or any other extracter).<br>
 Find the required libtk8.6.so file and replace Anaconda's libtk8.6.so with this new file.<br>
 
