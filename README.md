@@ -109,18 +109,7 @@ Table with following columns to provide detailed information at each node in the
 Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br>
 
 
-Analysis of skeletons-
-   1. Selecting nodes on skeleton
-   2. Length measurement between two nodes
-   3. Cross-sectioning of original images using skeleton- Using EM data and masks
-   4. Curvature analysis
-
-Saving skeletons as SWC and OBJ files
-   1. Setting radius for edges and nodes
-   
-
-
-Find protrusions
+**Find protrusions**
    1. Deciding erosion and dilation iterations
    2. Output obj files - soma, protrusions
 
