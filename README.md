@@ -97,7 +97,8 @@ Calculate planes separating selected objects
 pip install google-cloud-storage
 ```
 
-**For better looking fonts**<br>
+**For better looking fonts on Anaconda installed on Linux**<br>
+Note: This is NOT a guaranted way of making Tkinter fonts look better on Anaconda installed on a linux system. Please make sure that you create a conda environment and take backup of original library files before experimenting.<br>
 Taken from- https://stackoverflow.com/questions/47769187/make-anacondas-tkinter-aware-of-system-fonts-or-install-new-fonts-for-anaconda?noredirect=1&lq=1<br>
 1. Take backup of /home/<username>/anaconda3/lib/libtk8.6.so
 2. Create symbolic link to systems libtk8.6.so which is built on FreeType fonts.
