@@ -64,7 +64,9 @@ CellWalker window
 
 **Using 'Merge List' and saving segments as 3D objects-**
 
-Skeletonization-
+**Skeletonization of selected segments**<br>
+1. Skeletonization requires segments to be selected. To do so, select required segments by clicking on the checkboxes against their labels and click on the 'Add to merge list' button. The segment labels added to a merge list will be treated as a single label for skeletonization purpose. Using merge list gives flexibility of choosing various combinations of segments which is very useful when the loaded segmentation contains a large number of segments.
+2. 
 
 Using translation coordinates
 
