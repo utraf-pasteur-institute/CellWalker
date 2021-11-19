@@ -87,20 +87,15 @@ CellWalker window
 8. If a downsampling parameter is set in the 'Downsample' inputbox, the skeleton will be shown at a reduced resolution based on the value of the downsampling parameter. Higher the downsampling, lower the number of nodes in the skeleton. This is particularly useful for reducing the complexity while viewing large and dense skeletons.<br>
 9. There is also an option of coloring the skeleton by the node radius or the component. Coloring using node radius values is useful to visually contrast between thicker and thinner regions of the 3D object. On the other hand, coloring by component can give an idea of disconnected objects where skeleton was separately built for each object.<br>
 10. The 'Draw skeleton' button will launch a 3D viewer showing the skeleton as nodes connected by edges. The color scale on the right will indicate the node radius if the radius was chosen as coloring method.<br>
-11. Hold and drag mouse left button to rotate the scene. Hold and drag mouse right button to zoom in/out.
-12. The 'Save skeleton' button will open a dialogbox with a suggested filename for saving the skeleton. You can either accept the suggested name (that contains the information of the parameters used for skeletonization) or type another name. The extension of the file has to be 'swc'. The skeleton is then saved in the SWC format. Additionally, CellWalker will also save an OBJ and an MTL file for the skeleton. The OBJ and MTL files can be used to load a 3D representation of the skeleton in software like <a href="" target="_blank">Blender</a> for advanced visualization.<br>Note that translation coordinates will be applied to the skeleton saved as OBJ file.
+11. Hold and drag mouse left button to rotate the scene. Hold and drag mouse right button to zoom in/out.<br>
+12. The 'Save skeleton' button will open a dialogbox with a suggested filename for saving the skeleton. You can either accept the suggested name (that contains the information of the parameters used for skeletonization) or type another name. The extension of the file has to be 'swc'. The skeleton is then saved in the SWC format. Additionally, CellWalker will also save an OBJ and an MTL file for the skeleton. The OBJ and MTL files can be used to load a 3D representation of the skeleton in software like <a href="" target="_blank">Blender</a> for advanced visualization.<br>Note that translation coordinates will be applied to the skeleton saved as OBJ file.<br>
+13. Skeletons can also be opened from the SWC files using the 'Open skeleton' button.<br>
 
 **Skeleton-based analysis**<br>
 1. Once the skeleton is visualized, you can perform the following analyses by selecting the nodes on the skeleton and then choosing an action from the 'Skeleton-based analysis' section. These action buttons present an icon and show a tooltip by hovering the mouse cursor to describe the action they perform.
 2. The nodes on the skeleton can be chosen by pressing the mouse middle button. The selected node ids are printed in the terminal window.
 3. 'Calculate length': Select two nodes and then click on the button with a ruler icon. The button shows 'Calculate length' as tooptip. The length calculations will be printed to the terminal window. The straight length as well as the path length are calculated between the two selected nodes. For the path length, the full path is also printed as a table showing details of the shortest path between the selected nodes.<br>
 4. 'Create cross-sections': This function is meant for creating the cross-sections of the original image volume (not the segmented image volume) and generate histogram of intensities along in a chosen direction. The original images should be placed in a folder named 'EM' alongside the folder from which the segmented images were loaded. To perform cross-section analysis, select two nodes on the skeleton to denote the direction in which you want CellWalker to cut the 3D image volume. CellWalker will use coordinates of these two nodes to create a 'centerline'. The cross-sectioning will be performed perpendicular to this line. Two files are created- centerline.obj and centerline-histogram_selected-labels-<label id>.csv. The CSV file contains the histogram data for normalized intensity calculations. All intensity values of the voxels are inverted, so that higher values correspond to darker regions in the ssSEM images. This design choice is made to facilitate the interpretation of our measurements of cytoskeletal density, since in this case the elements of interest are electron-dense. The intensities are min-max scaled and normalized by the volume of the cross-section.
-
-Using translation coordinates
-
-Using erosion
-
-Kimimaro parameters
 
 Opening skeletons from SWC files
 
