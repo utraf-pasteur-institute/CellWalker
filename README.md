@@ -81,12 +81,14 @@ CellWalker window
 	<tr><td>6</td><td>256, 256, 30</td></tr>
 	<tr><td>7</td><td>512, 512, 30</td></tr>
 </table>
-5. The advanced parameters for Kimimaro may be accessed using the 'Show advanced options' button.
-6. Once the parameters are set, click on the 'Skeletonize' button. The button will remain deactivated while the skeletonization is running.
-7. When the skeletonization is over, you can draw the skeleton using the 'Draw skeleton' button.
-8. If a downsampling parameter is set in the 'Downsample' inputbox, the skeleton will be shown at a reduced resolution based on the value of the downsampling parameter. Higher the downsampling, lower the number of nodes in the skeleton. This is particularly useful for reducing the complexity while viewing large and dense skeletons.
-9. There is also an option of coloring the skeleton by the node radius or the component. Coloring using node radius values is useful to visually contrast between thicker and thinner regions of the 3D object. On the other hand, coloring by component can give an idea of disconnected objects where skeleton was separately built for each object.
-10. 
+5. The advanced parameters for Kimimaro may be accessed using the 'Show advanced options' button.<br>
+6. Once the parameters are set, click on the 'Skeletonize' button. The button will remain deactivated while the skeletonization is running.<br>
+7. When the skeletonization is over, you can draw the skeleton using the 'Draw skeleton' button.<br>
+8. If a downsampling parameter is set in the 'Downsample' inputbox, the skeleton will be shown at a reduced resolution based on the value of the downsampling parameter. Higher the downsampling, lower the number of nodes in the skeleton. This is particularly useful for reducing the complexity while viewing large and dense skeletons.<br>
+9. There is also an option of coloring the skeleton by the node radius or the component. Coloring using node radius values is useful to visually contrast between thicker and thinner regions of the 3D object. On the other hand, coloring by component can give an idea of disconnected objects where skeleton was separately built for each object.<br>
+10. The 'Draw skeleton' button will launch a 3D viewer showing the skeleton as nodes connected by edges. The color scale on the right will indicate the node radius if the radius was chosen as coloring method.<br>
+11. Hold and drag mouse left button to rotate the scene. Hold and drag mouse right button to zoom in/out.
+12. The 'Save skeleton' button will open a dialogbox with a suggested filename for saving the skeleton. You can either accept the suggested name (that contains the information of the parameters used for skeletonization) or type another name. The extension of the file has to be 'swc'. The skeleton is then saved in the SWC format. Additionally, CellWalker will also save an OBJ and an MTL file for the skeleton. The OBJ and MTL files can be used to load a 3D representation of the skeleton in software like <a href="" target="_blank">Blender</a> for advanced visualization.
 
 Using translation coordinates
 
