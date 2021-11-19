@@ -107,10 +107,11 @@ ln -s /usr/lib/x86_64-linux-gnu/libtk8.6.so /home/<username>/anaconda3/lib/libtk
 (Note: Install libtk8.6 (or whichever version) if not found in system's library.)<br>
 
 Tk shipped with anaconda might require exact version of the libtk library.<br>
-For example, it might ask for 8.6.8 version exactly. This might not be available in the system's library.
-In such a case, download the libtk8.6.so for that version.
-libtk8.6.8.so can also be extracted from the libtk deb package.<br>
-Example, dowonload http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/libtk8.6_8.6.8-4_amd64.deb<br>
+For example, it might ask for 8.6.8 version exactly. This version of libtk might not be available in the system's library.
+In such a case, download the libtk8.6.so for that version and replace Anaconda's libtk8.6.so with this new file.<br>
+
+Alternatively, libtk8.6.8.so can also be extracted from the libtk deb package.<br>
+Dowonload http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/libtk8.6_8.6.8-4_amd64.deb<br>
 Open with archive manager (or any other extracter).<br>
-Find the required libtk8.6.so file and replace anaconda's libtk8.6.so with this new file.<br>
+Find the required libtk8.6.so file and replace Anaconda's libtk8.6.so with this new file.<br>
 
