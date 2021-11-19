@@ -97,15 +97,15 @@ CellWalker window
 3. 'Calculate length': Select two nodes and then click on the button with a ruler icon. The button shows 'Calculate length' as tooptip. The length calculations will be printed to the terminal window. The straight length as well as the path length are calculated between the two selected nodes. For the path length, the full path is also printed as a table showing details of the shortest path between the selected nodes.<br>
 4. 'Create cross-sections': This function is meant for creating the cross-sections of the original image volume (not the segmented image volume) and generate histogram of intensities along in a chosen direction. The original images should be placed in a folder named 'EM' alongside the folder from which the segmented images were loaded. To perform cross-section analysis, select two nodes on the skeleton to denote the direction in which you want CellWalker to cut the 3D image volume. CellWalker will use coordinates of these two nodes to create a 'centerline'. The cross-sectioning will be performed perpendicular to this line. Two files are created- centerline.obj and centerline-histogram_selected-labels-<label id>.csv. The CSV file contains the histogram data for normalized intensity calculations. All intensity values of the voxels are inverted, so that higher values correspond to darker regions in the ssSEM images. This design choice is made to facilitate the interpretation of our measurements of cytoskeletal density, since in this case the elements of interest are electron-dense. The intensities are min-max scaled and normalized by the volume of the cross-section.<br>
 5. 'Calculate curvature': Curvature of the sub-skeleton delimited by the two selected nodes can be calculated using the 'Calculate curvature' button. The curvature calculations are saved as a CSV file in a chosen folder. The file contains information as follows-<br><br>
-Sum-of-orthogonal-distances: Sum of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br>
-Avg-of-orthogonal-distances: Average of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br>
-Std-of-orthogonal-distances: Standard deviation of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br>
-Avg-of-curvature: Average Menger curvature (described in the figure below)<br>
-Std-of-curvature: Standard deviation of Menger curvature (described in the figure below)<br>
-Avg-of-angle: Average angle subetended at the non-terminal nodes along the subskeleton by the terminal nodes.<br>
-Std-of-angle: Standard deviation of angle subetended at the non-terminal nodes along the subskeleton by the terminal nodes.<br>
-R-squared_least-square-regression: R-squared value of the best fit line through the nodes of the sub-sekeleton using linear least squares method.<br>
-Table with following columns to provide detailed information at each node in the sub-skeleton<br>
+Sum-of-orthogonal-distances: Sum of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br><br>
+Avg-of-orthogonal-distances: Average of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br><br>
+Std-of-orthogonal-distances: Standard deviation of orthogonal distances of all the nodes along the sub-skeleton from the best fit line obtained by orthogonal distance regression.<br><br>
+Avg-of-curvature: Average Menger curvature (described in the figure below)<br><br>
+Std-of-curvature: Standard deviation of Menger curvature (described in the figure below)<br><br>
+Avg-of-angle: Average angle subetended at the non-terminal nodes along the subskeleton by the terminal nodes.<br><br>
+Std-of-angle: Standard deviation of angle subetended at the non-terminal nodes along the subskeleton by the terminal nodes.<br><br>
+R-squared_least-square-regression: R-squared value of the best fit line through the nodes of the sub-sekeleton using linear least squares method.<br><br>
+Table with following columns to provide detailed information at each node in the sub-skeleton<br><br>
 Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br>
 
 
