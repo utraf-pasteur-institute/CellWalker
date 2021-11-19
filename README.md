@@ -42,7 +42,7 @@ All functionalities of CellWalker are accessible through this single window. The
 
 **Global parameters**
    1. Translations (X, Y, Z): In most cases, only a cropped version of the segmented images is loaded in the CellWalker for analysis so that the loaded images consume less memory. This, however, introduces a mismatch in the origin coordinates for the loaded images with respect to the original images. It is therefore necessary to tell CellWalker how much it needs to shift the origin so as to align the coordinates of the loaded images with the original image stack. These translation coordinates are used while exporting images/3D objects/other coordinate files. For example, when 3D objects are exported the translation coordinates are applied to the calculated coordinates so that the 3D objects have correct location in space.
-   2. Apply erosion, iterations: This input is designed to decide whether the segmented objects are eroded (thinned) before processing. If you select the checkbox on the left, the 3D image erosion of the segments will be turned on. The textbox on the right is then used to specify the amount of erosion required in terms of erosion iterations. Please find more information about image erosion here.
+   2. Apply erosion, iterations: This input is designed to decide whether the segmented objects are eroded (thinned) before processing. If you select the checkbox on the left, the 3D image erosion of the segments will be turned on. The textbox on the right is then used to specify the amount of erosion required in terms of erosion iterations. Please find more information about image erosion <a href="https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.ndimage.morphology.binary_erosion.html" target="_blank">here</a>.
 
 
 
