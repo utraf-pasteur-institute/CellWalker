@@ -90,5 +90,27 @@ Segment propertise: Morphometric analysis of segments
 Calculate planes separating selected objects
 
 
+## Common errors and post-installation adjustments
 
+**For error 'No module named google' do the following**<br>
+```
+pip install google-cloud-storage
+```
+
+**For better looking fonts follow these instructions**
+Taken from- https://stackoverflow.com/questions/47769187/make-anacondas-tkinter-aware-of-system-fonts-or-install-new-fonts-for-anaconda?noredirect=1&lq=1<br>
+1. Take backup of /home/<username>/anaconda3/lib/libtk8.6.so
+2. Create symbolic link to systems libtk8.6.so which is built on FreeType fonts.
+```
+ln -s /usr/lib/x86_64-linux-gnu/libtk8.6.so /home/<username>/anaconda3/lib/libtk8.6.so
+```
+(Note: Install libtk8.6 (or whichever version) if not found in system's library.)<br>
+
+Tk shipped with anaconda might require exact version of the libtk library.<br>
+For example, it might ask for 8.6.8 version exactly. This might not be available in the system's library.
+In such a case, download the libtk8.6.so for that version.
+libtk8.6.8.so can also be extracted from the libtk deb package.<br>
+Example, dowonload http://archive.ubuntu.com/ubuntu/pool/main/t/tk8.6/libtk8.6_8.6.8-4_amd64.deb<br>
+Open with archive manager (or any other extracter).<br>
+Find the required libtk8.6.so file and replace anaconda's libtk8.6.so with this new file.<br>
 
