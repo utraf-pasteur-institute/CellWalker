@@ -6,7 +6,6 @@ Morphological analysis tool for segmented 3D microscopy images of biological cel
 This program does not require specific installation procedure. The script is tested on Python 3.6 on Ubuntu 18.04.
 
 ## User guide<br>
-Under progress
 
 **Setting up python environment**
 The CellWalker setup was tested using <a href="https://www.anaconda.com/" target="_blank">Anaconda Python</a> distribution. But it should be possible to use other python distributions as well.<br><br>
