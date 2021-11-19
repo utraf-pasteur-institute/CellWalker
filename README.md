@@ -106,16 +106,18 @@ Avg-of-angle: Average angle subetended at the non-terminal nodes along the subsk
 Std-of-angle: Standard deviation of angle subetended at the non-terminal nodes along the subskeleton by the terminal nodes.<br><br>
 R-squared_least-square-regression: R-squared value of the best fit line through the nodes of the sub-sekeleton using linear least squares method.<br><br>
 Table with following columns to provide detailed information at each node in the sub-skeleton<br><br>
-Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br>
+Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br><br>
+	
+	
+Coming up...<br>
+**Find protrusions**<br>
+1. Deciding erosion and dilation iterations
+2. Output obj files - soma, protrusions
 
+**Segment propertise**<br>
+Morphometric analysis of segments
 
-**Find protrusions**
-   1. Deciding erosion and dilation iterations
-   2. Output obj files - soma, protrusions
-
-Segment propertise: Morphometric analysis of segments
-
-Calculate planes separating selected objects
+**Calculate planes separating selected objects**
 
 
 ## Common errors and post-installation adjustments
