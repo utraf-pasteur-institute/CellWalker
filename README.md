@@ -70,7 +70,7 @@ CellWalker window
 3. Skeletonization is performed using the <a href="https://github.com/seung-lab/kimimaro" target="_blank">Kimimaro method</a>. The skeletonization parameters shown in CellWalker are those that are required by the Kimimaro skeletonization library. The default parameters usually work well, however tweaking of the default values may be necessary to get the best output.
 4. The mip_level parameter defines the voxel anisotropy. Please refer to the following mip level table to choose from the available anisotropy values.
 <table>
-	<tr><td>mip_level</td><td>X, Y, Z</td><\tr>
+	<tr><td>mip_level</td><td>X, Y, Z</td></tr>
 	<tr><td>none</td><td>1, 1, 1</td></tr>
 	<tr><td>0</td><td>4, 4, 30</td></tr>
 	<tr><td>1</td><td>8, 8, 30</td></tr>
