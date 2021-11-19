@@ -9,9 +9,11 @@ This program does not require specific installation procedure. The script is tes
 Under progress
 
 **Setting up python environment**
+The CellWalker setup was tested using <a href="https://www.anaconda.com/" target="_blank">Anaconda Python</a> distribution. But it should be possible to use other python distributions as well.<br><br>
+
 Clone the github repository to your local system and browse to the downloaded folder from a command line (for linux) or using Anaconda Prompt (for windows)
 
-Create an environment with Python 3.6. This step is tested using <a href="https://www.anaconda.com/">Anaconda Python distribution</a>. But it should be possible to use other python distributions as well.
+Create an environment with Python 3.6.
 ```
 conda create --name cellwalker python=3.6
 ```
