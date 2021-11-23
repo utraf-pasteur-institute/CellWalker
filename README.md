@@ -57,7 +57,7 @@ The displayed colors of a segment can be changed by clicking on the colored butt
 6. Scrolling throught the image sequence is facilitated by the slider at the bottom of the segmentation frame. Scrolling is also possible using keyboard left and right arrows after clicking once on any segmentation image.
 
 <p style="font-style: italics;" align="center">
-<img height=300 src="cellwalker.png" alt="CellWalker window" /><br>
+<img height=300 src="cellwalker_images_loaded.png" alt="CellWalker window" /><br>
 CellWalker window
 </p>
 
