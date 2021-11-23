@@ -64,7 +64,7 @@ CellWalker window
 **Skeletonization of selected segments**<br>
 1. Skeletonization requires segments to be selected. To do so, select required segments by clicking on the checkboxes against their labels and click on the 'Add to merge list' button. The segment labels added to a merge list will be treated as a single label for skeletonization purpose. Using merge list gives flexibility of choosing various combinations of segments which is very useful when the loaded segmentation contains a large number of segments.
 <p style="font-style: italics;" align="center">
-<img height=300 src="cellwalker_merge_list2.png" alt="CellWalker window" /><br>
+<img height=300 src="cellwalker_merge_list.png" alt="CellWalker window" /><br>
 Create 'merge list' of the selected segments
 </p>
 2. Now choose the 'Skeletonization' tab from the right-hand panel. This tab contains two sub-sections- 'Generate skeleton' and 'Skeleton-based analysis'.
