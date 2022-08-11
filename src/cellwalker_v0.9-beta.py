@@ -29,12 +29,12 @@ from mpl_toolkits.mplot3d import proj3d
 
 # Set custome path for importing cloudvolume
 import sys
-sys.path.insert(0, '../packages/cloud-volume_harsh/build/lib')
+#sys.path.insert(0, '../packages/cloud-volume_harsh/build/lib') # Optional- for local cloud-volume installation
 import cloudvolume
 
 # Set custome path for importing kimimaro
-import sys
-sys.path.insert(0, '../packages/kimimaro_harsh/build/lib.linux-x86_64-3.7')
+#import sys
+#sys.path.insert(0, '../packages/kimimaro_harsh/build/lib.linux-x86_64-3.7') # Optional- for local kimimaro installation
 import kimimaro
 
 import math
@@ -139,6 +139,9 @@ class Root(Tk):
 	def __init__(self):
 		super(Root, self).__init__()
 
+		# Version name
+		self.__version__ = "v0.9-beta"
+
 		# Initialize variables
 		self.dirname = "./"
 		self.uniq_labels = []
@@ -218,7 +221,7 @@ class Root(Tk):
 		#self.configure(background='#4D4D4D')
 		self.configure(background=bg_color_1)
 		# Set title
-		self.title("CellWalker v0.3-beta")
+		self.title("CellWalker " + self.__version__)
 
 
 ############################## Define ttk style ##################################
