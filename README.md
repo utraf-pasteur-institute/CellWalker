@@ -131,7 +131,7 @@ Morphometric analysis of segments
 
 ## Common errors and post-installation adjustments
 
-**For error 'No module named google'**<br>
+**If you get error- 'No module named google', install following package.**<br>
 ```
 pip install google-cloud-storage
 ```
