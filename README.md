@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 Browse to the 'src' folder of the cloned repository and run the python script as follows.
 ```
-python cellwalker.py
+python cellwalker_v0.9-beta.py
 ```
 The above command will launch the CellWalker window as shown below.
 <p style="font-style: italics;" align="center">
@@ -116,8 +116,6 @@ Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br><br>
 	
 Coming up...<br>
 	
-**Saving segments as 3D objects-**
-
 **Find protrusions**<br>
 1. Deciding erosion and dilation iterations
 2. Output obj files - soma, protrusions
@@ -126,6 +124,8 @@ Coming up...<br>
 Morphometric analysis of segments
 
 **Calculate planes separating selected objects**<br><br>
+
+**Saving segments as 3D objects-**
 
 <hr>
 
