@@ -1,6 +1,5 @@
 # CellWalker
 
-/appveyor/build/:user/:repo
 Morphological analysis tool for segmented 3D microscopy images of biological cells 
 
 ### Installation
