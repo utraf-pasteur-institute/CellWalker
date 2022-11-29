@@ -115,6 +115,34 @@ Table with following columns to provide detailed information at each node in the
 Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br><br>
 	
 	
+To find features of cross-sections, you have to use the provided python script after loading the OBJ file of the object in Blender.<br>
+Start Blender and and import the OBJ file. Remember to set axes to Y-forward and Z-up if you are using OBJ files exported from the VAST software. VAST inverts the axes by default so you have to invert them back to get correct sense. (Although, keeping any sense, mirrored or otherwise, does not affect the numerical values of intrinsic calculations such as distances, areas, volumes etc.).<br>
+Once the object is loaded, you can see it on the screen. The objects position will likely not be the origin of the Blender's scene. To center your viewport on the object, select the object in the right-hand side panel, bring the mouse cursor in the viewport and press "." (dot) on the num pad of your keyboard.<br>
+
+To perform cross-sectioning and calculation of cross-section features, you can now use the python script provided in this repository.<br>
+Click on the Scripting tab on the top. Blender screen will be reorganized to run the scripts. You can adjust the sizes of the subpanels as you like.<br>
+Now load the object for the centerline (centerline.obj) which you had exported from the CellWalker. This is the guide line to perform cross-sectioning. If the correct translations have been provided to CellWalker before exporting centerline object, then the loaded centerline should appear going through the center of the loaded object (assuming that the segmentation of the same object was used to create centerline in CellWalker).<br>
+
+Now save this Blender state as a .blend file. Saving it in a specific location allows the further calculations and exports to take place in the same folder as the saved .blend file.<br>
+
+You have to edit the script at one place to point it to the cellwalker environment which you created in the beginning.<br>
+Open the script '?' in any text editor. Locate the line that starts with 'sys.path.append("...'. In the double quotes you will see a path to the site-packages folder inside the 'cellwalker' environment. Type a similar path on your computer. Save the file and close the text editor. Now the script can find required packages for performing cross-section analysis.<br>
+
+Now back in Blender GUI, select the object which you want to cross-section.<br>
+
+Then, in the Console panel in the Blender's GUI, type the command and press Enter button.
+```
+python <path to the script>/scriptname.py
+```
+
+The script will run on the selected object. It will also automatically check if the centerline is present. Note that the object named 'centerline' must be present for correct execution of this script.
+
+A collection of cross-sections will be created in the right-hand side panel. At the same time, the calculated parameters will be exported to a file named-
+```
+<object name>_cross-section_param.csv
+```
+The exported file lists features calculated for all cross-sections in a CSV format.<br<br>
+
 Coming up...<br>
 	
 **Find protrusions**<br>
