@@ -143,18 +143,28 @@ A collection of cross-sections will be created in the right-hand side panel. At 
 ```
 The exported file lists features calculated for all cross-sections in a CSV format.<br><br>
 
-Coming up...<br>
-	
+**Saving segments as 3D objects-**
+Saving selected segments as .OBJ files is facilitated by the 'Save surfaces' button at the bottom right corner of the CellWalker interface. It exports the selected labels as 3D .OBJ files that can be used by CellWalker and also many other 3D graphics programs such as Blender and 3DsMax.<br>
+
 **Find protrusions**<br>
-1. Deciding erosion and dilation iterations
-2. Output obj files - soma, protrusions
+This is function is provided in the 'Find protrusions' tab in the CellWalker interface.<br>
+Protrusions are projections on the surface of the soma of a cell. The protrusions are considerably thinner than the soma of the cell. This morphological feature of the protrusions is used to identify them with morphological modifiers. The algorithm used here is an erosion-dilation method. The object is eroded for a fixed number of iterations so that the thinner parts are shaved off. Then a dilation operation is performed for the same or more number of itarations to reproduce an approximate original object which does not have any thinner protrusions.
+The protrusions are then given by subtracting the dilated object (object D) from the original object (Object O).<br>
+The soma is calculated by subtracting the protrusions from the original object (Object O).<br>
+The number of iterations of erosion should be less than the number of iterations of dilation for appropriate results. The fine tuning of the exact number of iterations might require a few trials. However, the recommended numbers (10 for erosion and 30 for dilation) work for most cases.<br>
+The output is saved as .OBJ files for both soma and protrusions.
 
 **Segment propertise**<br>
-Morphometric analysis of segments
+This function is provided in the 'Segment properties' tab in the CellWalker interface.<br>
+Segment properties such as surface area, volume, dimensions etc are useful for morphometric analysis. The output of the calculated segment properties is saved in the user-provided output file.<br>
 
-**Calculate planes separating selected objects**<br><br>
-
-**Saving segments as 3D objects-**
+**Calculate planes separating selected objects**<br>
+The plane of separation of two objects might be useful to describe their orientation with each other.
+For this purpose a functionality is provided under MMSP (Maximum Margin Separation Plane) tab in the CellWalker interface. 
+This function does not depend on the loaded segmenataion. It requires objects stored in OBJ format. You may use the 'Save surface' button in the CellWalker interface or you can also use OBJ files obtained using any other programs.<br>
+The calculation of MMSP between two objects might take several minutes for large objects. To reduce the time by compromizing on accuracy, an option of using only certain percentage of vertices is also provided.<br>
+The MMSP is calculated using Support Vector Machines (SVM) to obtain a best fit plane that separates the two objects (i.e. vertices of the two objects).<br>
+The output file of MMSP calculation provides detailed description of the two objects, the MMSP and the orientation of the two object with respect to the MMSP.<br>
 
 <hr>
 
