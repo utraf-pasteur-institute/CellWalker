@@ -8,6 +8,9 @@ This program does not require specific installation procedure. The script is tes
 
 ## User guide<br>
 
+**Versions**
+The latest version is 'cellwalker_v0.9-beta.py' and can be found in the 'src' folder in the repository. It is recommended to use this version for availability of the most updated tools.
+
 **Setting up python environment**
 The CellWalker setup was tested using <a href="https://www.anaconda.com/" target="_blank">Anaconda Python</a> distribution. But it should be possible to use other python distributions as well.<br><br>
 
