@@ -141,7 +141,7 @@ A collection of cross-sections will be created in the right-hand side panel. At 
 ```
 <object name>_cross-section_param.csv
 ```
-The exported file lists features calculated for all cross-sections in a CSV format.<br<br>
+The exported file lists features calculated for all cross-sections in a CSV format.<br><br>
 
 Coming up...<br>
 	
