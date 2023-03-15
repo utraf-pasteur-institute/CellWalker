@@ -118,7 +118,7 @@ Table with following columns to provide detailed information at each node in the
 Node_ID,X,Y,Z,Orthogonal_distance,Curvature,Angle<br><br><br>
 	
 	
-To find features of cross-sections, you have to use the provided python script after loading the OBJ file of the object in Blender.<br>
+To find features of cross-sections, you have to use the provided python script (See folder https://github.com/utraf-pasteur-institute/CellWalker/tree/main/src/blender_python_scripts) after loading the OBJ file of the object in Blender.<br>
 Start Blender and and import the OBJ file. Remember to set axes to Y-forward and Z-up if you are using OBJ files exported from the VAST software. VAST inverts the axes by default so you have to invert them back to get correct sense. (Although, keeping any sense, mirrored or otherwise, does not affect the numerical values of intrinsic calculations such as distances, areas, volumes etc.).<br>
 Once the object is loaded, you can see it on the screen. The objects position will likely not be the origin of the Blender's scene. To center your viewport on the object, select the object in the right-hand side panel, bring the mouse cursor in the viewport and press "." (dot) on the num pad of your keyboard.<br>
 
